@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather");
 
 body {
-    /* background-color: rgb(250, 242, 231); */
+    background-color: rgb(250, 242, 231);
     background-color: white;
     font-size: 16px;
     font-weight: normal;
@@ -40,19 +40,29 @@ body {
 
 .block li {
     list-style-type: none;
+    font-weight: normal;
     margin-bottom: 4px;
 }
 
 .block a {
     color: black;
     text-decoration: none;
-    
+    font-weight: normal;
+}
+
+.block:hover > h3 {
+    background-size: 0 3px, 100% 3px;
+}
+
+.block h3 {
+    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #ff0000, #fff200, #1e9600);
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+    padding-left: 10px;
 }
 
 .block a:visited {
     color: rgb(140, 137, 137);;
-}
-
-.block h3 {
-    padding-left: 10px;
 }
