@@ -26,6 +26,10 @@ body {
     box-shadow: 4px 4px 14px rgba(112, 63, 55, 0.15);
 }
 
+.profile-info:hover > h1 {
+    background-size: 0 3px, 100% 3px;
+}
+
 .profile-info p {
     margin: 0;
     margin-left: 10px;
@@ -57,11 +61,6 @@ body {
 
 
 .block h3 {
-    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #b6c199, #c29591, #7d94b5);
-    background-size: 100% 3px, 0 3px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 400ms;
     padding-left: 10px;
     color: #6989b7;
     text-shadow: 1px 1px 1px rgba(112, 63, 55, 0.05);
@@ -70,4 +69,12 @@ body {
 
 .block a:visited {
     color: rgb(112, 63, 55);
+}
+
+.gradient {
+    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #b6c199, #c29591, #7d94b5);
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
 }
