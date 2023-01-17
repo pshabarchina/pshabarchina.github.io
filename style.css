@@ -72,7 +72,7 @@ body {
 }
 
 .gradient {
-    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #b6c199, #c29591, #7d94b5);
+    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #b2c189, #c29591, #7d94b5);
     background-size: 100% 3px, 0 3px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
