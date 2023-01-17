@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather");
 
 body {
-    background-color: rgb(250, 242, 231);
-    background-color: white;
+    background-color: #7d94b5;
     font-size: 16px;
     font-weight: normal;
     font-family: 'Merriweather';
@@ -17,52 +16,58 @@ body {
 .profile {
     display: flex;
     margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(112, 63, 55, 0.25);
 }
 
 .main-pic {
     height: 250px;
     border-radius: 50%;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+    box-shadow: 4px 4px 14px rgba(112, 63, 55, 0.15);
 }
 
 .profile-info p {
     margin: 0;
     margin-left: 10px;
+    
 }
 
 .block {
-    border-radius: 10px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
-    background-color: rgb(247, 238, 226);
+    border-radius: 6px;
+    box-shadow: 4px 4px 14px rgba(112, 63, 55, 0.15);
+    background-color: #c8b7a6;
     padding: 10px;
     margin-bottom: 20px;
+    color:rgb(112, 63, 55);
 }
 
 .block li {
     list-style-type: none;
-    font-weight: normal;
     margin-bottom: 4px;
 }
 
 .block a {
-    color: black;
     text-decoration: none;
-    font-weight: normal;
+    color: rgb(112, 63, 55);
 }
 
 .block:hover > h3 {
     background-size: 0 3px, 100% 3px;
 }
 
+
 .block h3 {
-    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #ff0000, #fff200, #1e9600);
+    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #b6c199, #c29591, #7d94b5);
     background-size: 100% 3px, 0 3px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
     transition: background-size 400ms;
     padding-left: 10px;
+    color: #6989b7;
+    text-shadow: 1px 1px 1px rgba(112, 63, 55, 0.05);
+    font-weight: normal;
 }
 
 .block a:visited {
-    color: rgb(140, 137, 137);;
+    color: rgb(112, 63, 55);
 }
